@@ -26,8 +26,8 @@ Office professionals want to stay fit but face a consistent set of barriers:
 
 ## 🏢 Internship Context
 
-> Both tasks were completed as part of my UX/UI Design Internship at **Decodelabs**.
-> The goal was to follow a research-first design process — understanding the user deeply before creating a single UI element.
+> All tasks were completed as part of my UX/UI Design Internship at **Decodelabs**.
+> The goal was to follow a research-first design process — understanding the user deeply before creating a single UI element, then progressing from structure to full visual polish.
 
 ---
 
@@ -136,7 +136,7 @@ Screen 7 — Profile & Logout
 
 ---
 
-## 📐 Figma Setup
+## 📐 Figma Setup (Lo-Fi)
 
 ```
 Frame Size   →  390 × 844 px  (iPhone 14)
@@ -145,6 +145,58 @@ Colors       →  #222222 / #888888 / #EBEBEB / #FFFFFF
 Font         →  Inter or SF Pro
 Nav Bar      →  Reusable component across all screens
 Prototype    →  Smart Animate · Slide Left (forward) · Slide Right (back)
+```
+
+---
+
+# ✅ Task 3 — High-Fidelity Screens
+
+> *Bring the wireframes to life with branding, color, and visual polish.*
+
+---
+
+## 🎨 Brand Identity
+
+A custom **FitFlow logo** was designed — a bold "F" letterform combined with a pulse/heartbeat line, symbolizing energy and motion.
+
+| Element | Value |
+|---------|-------|
+| Primary Color (Green) | `#1DB954` → `#0A8F3C` (gradient) |
+| Background (Navy) | `#1a1a4e` |
+| Accent — Workouts Done | `#FFB020` (amber) |
+| Accent — Active Hours | `#3B82F6` (blue) |
+| Accent — HIIT / Intensity | `#E24B4A` (red) |
+| Surface | `#FFFFFF` / `#F7F7F7` |
+| Tagline | "Your 15-minute workout, every single day." |
+
+---
+
+## 📱 Hi-Fi Screens
+
+Each Lo-Fi wireframe was rebuilt with full branding, real content, icons, and color:
+
+| # | Screen | What Was Added |
+|---|--------|-----------------|
+| 1 | Onboarding / Sign Up | FitFlow logo, tagline, 3 feature highlight chips (15 min workouts · No gym needed · Track progress) |
+| 2 | Home Dashboard | User greeting, green gradient workout card, color-coded stat cards (streak / workouts / active hours), weekly progress bar, recommended workouts |
+| 3 | Workout Browse | Search bar, filter chips, 3 workout cards with icons, duration, difficulty, and progress bars |
+| 4 | Active Workout | Exercise illustration, step counter, exercise name, timer with progress, Pause/Skip buttons, "Next up" preview |
+| 5 | Progress Tracker | Week/Month/Year tabs, color-coded bar chart, stat cards (workouts & active time), 7-day streak grid |
+| 6 | Profile & Logout | Avatar, role label, 4 settings rows (Edit profile, Fitness goals, Notifications, Help & support), Log out button |
+
+---
+
+## 📐 Figma Setup (Hi-Fi)
+
+```
+Color Styles   →  Primary Green #1DB954, Navy #1a1a4e,
+                   Amber #FFB020, Blue #3B82F6, Red #E24B4A
+Icon Library   →  Tabler Icons (flame, stretching, yoga,
+                   user, bell, chevron-right, etc.)
+Typography     →  Inter / SF Pro — 9px to 24px scale
+Components     →  Stat cards, workout cards, nav bar,
+                   settings rows — all reusable
+Gradients      →  135° linear gradient for hero cards
 ```
 
 ---
@@ -158,23 +210,32 @@ FitFlow/
 │   ├── Persona 1 — Sarah
 │   ├── Persona 2 — Usman
 │   └── Empathy Map
-└── Task 2 — Lo-Fi Wireframes/
-    ├── Screen 1 — Onboarding
-    ├── Screen 2 — Home Dashboard
-    ├── Screen 3 — Workout Browse
-    ├── Screen 4 — Active Workout
-    ├── Screen 5 — Progress
-    └── Screen 6 — Profile & Logout
+├── Task 2 — Lo-Fi Wireframes/
+│   ├── Screen 1 — Onboarding
+│   ├── Screen 2 — Home Dashboard
+│   ├── Screen 3 — Workout Browse
+│   ├── Screen 4 — Active Workout
+│   ├── Screen 5 — Progress
+│   └── Screen 6 — Profile & Logout
+└── Task 3 — Hi-Fi Screens/
+    ├── Screen 1 — Onboarding (branded)
+    ├── Screen 2 — Home Dashboard (branded)
+    ├── Screen 3 — Workout Browse (branded)
+    ├── Screen 4 — Active Workout (branded)
+    ├── Screen 5 — Progress (branded)
+    └── Screen 6 — Profile & Logout (branded)
 ```
 
 ---
 
 ## 🚀 Next Steps
 
-- [ ] Task 3 — Mid-Fi wireframes (real typography, spacing, components)
-- [ ] Task 4 — Hi-Fi design (brand color, icons, imagery)
+- [x] Task 1 — UX Research
+- [x] Task 2 — Lo-Fi Wireframes
+- [x] Task 3 — Hi-Fi Screens
 - [ ] Usability testing with target users
-- [ ] Prototype handoff
+- [ ] Interactive prototype with full transitions
+- [ ] Developer handoff
 
 ---
 
@@ -182,7 +243,7 @@ FitFlow/
 
 | Tool | Purpose |
 |------|---------|
-| **Figma** | Wireframe design & prototyping |
+| **Figma** | Wireframe design, Hi-Fi design & prototyping |
 | **FigJam** | User flow mapping |
 | **Pen & Paper** | Initial sketching |
 
@@ -192,7 +253,7 @@ FitFlow/
 
 [![Figma](https://img.shields.io/badge/View%20in%20Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/x79iYzMYnGv5ZEH21B8tIZ/DecodeLabs_Internship?node-id=24-981&t=FgDCJO6gi5Diq1iO-1)
 
-> 🖇️ [DecodeLabs_Internship — FitFlow Lo-Fi Wireframes](https://www.figma.com/design/x79iYzMYnGv5ZEH21B8tIZ/DecodeLabs_Internship?node-id=24-981&t=FgDCJO6gi5Diq1iO-1)
+> 🖇️ [DecodeLabs_Internship — FitFlow Design File](https://www.figma.com/design/x79iYzMYnGv5ZEH21B8tIZ/DecodeLabs_Internship?node-id=24-981&t=FgDCJO6gi5Diq1iO-1)
 
 ---
 
